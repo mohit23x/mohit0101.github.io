@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Morning Star - Website | Graphics | Photoograpy | Editing</title>
+
+    <link rel="stylesheet" href="./simple-grid.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div  id="hideall"><div class="hideloader"></div></div>
+
+    <!-- the overlay -->
+    <div class="overlay" id="overlay">
+        <a href="javascript:void(0)" class="overlay_close_btn" onclick="CloseOverlay()">&times;</a>
+
+        <div class="overlay_content">
+            <a href="#aboutus" onclick="CloseOverlay()">About us</a>
+            <a href="#whatwedo" onclick="CloseOverlay()">What we do?</a>
+            <a href="#previouswork" onclick="CloseOverlay()">Previous Work</a>
+            <a href="#contactus" onclick="CloseOverlay()">Contact Us</a>
+        </div>
+    </div>
+    <!--overlay lcose -->
+    <div class="container">
+        <div class="row">
+            <div class="col-9"></div>
+            <div class="col-3" >
+                <div class="open_overlay_button" onclick="OpenOverlay()"><span>Navigation</span>
+                    <img src="./3bar3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div><!--container close-->    
+
+    <div class="row home_center_blue">
+        <div class="col-6">
+            <div class="morningstar">
+                <h1>MORNING STAR'S</h1>
+            </div>
+        </div>
+        <div class="col-6">
+            <br>
+            <img src="./screen.png" alt="">
+        </div>
+
+    </div>
+
+    
+    <div class="container" id="aboutus">
+        <div class="row">
+            <div class="col-6">
+                <h1><span class="highlight">About Us&nbsp;<span class="blink">:</span></span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" >
+                <div id="aboutusdescription">The world is on the internet, and we are here to connect you and your buisness to the consumers effectively.<br>We are group of passionate <span class="eff">Web Developers, Graphic Designers, Photographer, Video Editors, Innovative Content Creators</span> availible to help you make your identity on the internet.</div>
+                <br>
+                <div class="parallax1"><span>We Code, We Create.</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="whatwedo">
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                    <h1><span class="highlight">What we do&nbsp;<span class="blink">?</span></span></h1>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 col-6-sm">
+                <div class="card">
+                    <img src="./morning-stars-graphics-designing.jpg" alt="morning-stars-graphics-designing.jpg">
+                    <div class="content">
+                        <h3>Graphic Design</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-6-sm">
+                <div class="card">
+                    <img src="./morning-stars-webdevelopment.jpg" alt="morning-stars-webdevelopment.jpg">
+                    <div class="content">
+                        <h3>Web Devlopment</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-6-sm">
+                <div class="card">
+                    <img src="./morning-stars-tshirt-printing.jpg" alt="morning-stars-tshirt-printing.jpg">
+                    <div class="content">
+                        <h3>Tshirt Design</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-6-sm">
+                <div class="card">
+                    <img src="./morning-stars-video-editing.jpg" alt="morning-stars-video-editing.jpg">
+                    <div class="content">
+                        <h3>Video Editing</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-6-sm">
+                <div class="card">
+                    <img src="./morning-stars-PHOTOGRAPHY.jpg" alt="morning-stars-PHOTOGRAPHY.jpg">
+                    <div class="content">
+                        <h3>Photography</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-6-sm">
+                <div class="card">
+                    <img src="./morning-stars-printing-services.jpg" alt="morning-stars-printing-services.jpg">
+                    <div class="content">
+                        <h3>Printing Services</h3>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_1')" class="color_pallet_1"><span class="tooltiptext" id="color_pallet_1">Website Devlopment</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_2')" class="color_pallet_2"><span class="tooltiptext" id="color_pallet_2">Photo Manipulation</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_3')" class="color_pallet_3"><span class="tooltiptext" id="color_pallet_3">Video Editing</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_4')" class="color_pallet_4"><span class="tooltiptext" id="color_pallet_4">Flex Printing</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_5')" class="color_pallet_5"><span class="tooltiptext" id="color_pallet_5">Sticker Printing</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_6')" class="color_pallet_6"><span class="tooltiptext" id="color_pallet_6">Ecommerce Devlopment</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_7')" class="color_pallet_7"><span class="tooltiptext" id="color_pallet_7">Python scripts</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_8')" class="color_pallet_8"><span class="tooltiptext" id="color_pallet_8">Social Management</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_9')" class="color_pallet_9"><span class="tooltiptext" id="color_pallet_9">Django-2</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_10')" class="color_pallet_10"><span class="tooltiptext" id="color_pallet_10">SEO</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_11')" class="color_pallet_11"><span class="tooltiptext" id="color_pallet_11">Tshirt Printing</span></div></div>
+            <div class="col-1-sm"><div onclick="palletfuntion('color_pallet_12')" class="color_pallet_12"><span class="tooltiptext" id="color_pallet_12">etc.</span></div></div>
+        </div>
+        <hr>
+    </div>
+
+
+
+    <div class="container" id="previouswork">
+        <div class="row">
+            <div class="col-6">
+               <h1><span class="highlight">Previous Work&nbsp;<span class="blink">.</span></span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="ccontainer">
+                    <img class="cimages" src="./morning-stars-work.png" alt="morning-stars-work" width="100%">
+                    <img class="cimages" src="./morning-stars-work-youtube-music-player.png" alt="morning-stars-work" width="100%">
+                    <img class="cimages" src="./morning-stars-fest-management-system.png" alt="morning-stars-work" width="100%">
+                    <img class="cimages" src="./morning-stars-work-BLOGVLOG.png" alt="morning-stars-work" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contactus">
+        <hr>
+        <div class="row">
+            <div class="col-6">
+               <h1><span class="highlight">Contact Us&nbsp;<span class="blink">></span></span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                    <span class="emailbdy">You can</span> <a href="mailto:mohit@techie.com" class="emailbtn">click here</a><span class="emailbdy">to <b>Send us an email </b>and we will get in touch with you!</span>
+            </div>
+    </div>
+<br>
+<hr>
+    <div class="row">
+        <div class="col-12">
+            <div class="container">
+            <div class="row">   
+                <div class="col-9"><h3>Morning Star's</h3>
+                <h4>Mohit Jain &nbsp;<a href="https://www.instagram.com/frasm__" class="socialbutton" style="background-color: black;">Instagram</a>&nbsp;<a href="https://www.github.com/mohit0101" class="socialbutton" style="background-color: black;">Github</a></h4>
+            </div>
+            <div class="col-2-sm">
+                <button class="topbutton" onclick="topfunction()">Top</button>
+            </div>
+            </div>
+            <hr>
+            <p>Made with <span class="blink">love.</span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br><br><br>
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
