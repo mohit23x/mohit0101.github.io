@@ -5,25 +5,35 @@
     bottom: 0;
     top: 0;
     background: #363636;
-    transition: 1s;
     z-index: 99;
+    transition: 1s;
+    text-align: center;
+}
+#hideall span{
+    position: absolute;
+    top: 20%;
+    margin-left: -3%;
+    color: white;
+    font-size: 24px;
 }
 
 @keyframes spin{
-    0% {transform: rotate(0deg)}
-    100% {transform: rotate(36deg)}
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
 
 .hideloader{
     border: 16px solid #f3f3f3;
     border-top: 16px solid #3498db;
+    border-left: 16px solid #caeaff;
+    border-bottom: 16px solid #dff2ff;
     border-radius: 50%;
     width: 120px;
     height: 120px;
     animation: spin 1s linear infinite;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 html, body{
@@ -541,21 +551,16 @@ hr{
     .cimages{
         height: 300px;
     }
-}
 
-
-.freebirdFormviewerViewHeaderHeader{
-    display: hidden;
-}
-
-.freebirdFormviewerViewFormBanner{
-    display: none;
+    .card h3{
+        font-size: 0.9rem;
+    }
 }
 
 .emailbtn{
     text-decoration: none;
     font-size: 20px;
-    padding: 12px;
+    padding: 6px;
     text-align: center;
     color: black;
     background: linear-gradient(to bottom right, skyblue, rgb(195, 237, 255), white );
@@ -577,6 +582,7 @@ hr{
     text-align: center;
     color: black;
 }
+
 @media screen and (max-width: 390px){
     .morningstar h1{
         padding: 5px;
